@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "AirTek.FlightScheduling.Presentation.Console": {
+      "commandName": "Project"
+    },
+    "Docker": {
+      "commandName": "Docker"
+    }
+  }
+}
