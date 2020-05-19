@@ -20,7 +20,7 @@ namespace AirTek.Transportly.FlightScheduling.Infrastructure.Model
         {
             if (_dataContext == null)
             {
-                Type dataContextType = Type.GetType(_configuration["DataContextType"]);
+                Type dataContextType = Type.GetType(_configuration["AppSettings:DataContextType"]);
 
                 object[] instanceArgs = new object[]
                 {
